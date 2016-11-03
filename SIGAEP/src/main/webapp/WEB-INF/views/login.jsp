@@ -6,12 +6,23 @@
    	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>SIGAEP - Quixadá</title>
+	<title>SiGAEP - Quixadá</title>
 	<%@include file="css_include.jsp" %>
   </head>
   <body>
     <%@include file="nav_bar_menu.jsp" %>
-    <div class="row valign-wrapper">
+    <div class="row">
+    
+    		<div class="row center col s12">
+    			<div class="icon-block">
+		            <h2 class="center green-text"><i class="large material-icons">lock</i></h2>
+		            <h5 class="center">Área Administrativaa</h5>
+		            <p class="light">
+		            	Você precisa realizar login para acessar essa área.
+		            </p>
+	          	</div>
+    		</div>
+			
 			<form method="post" action="efetuarLogin" class="col s12">
 				<div class="row">
 					<div class="input-field col s12">
@@ -37,7 +48,7 @@
 			        </div>
 			    </div>	
 				
-				<div class="row">
+				<div class="row center">
 				 	<div class="input-field col s12">
 						<button class="btn waves-effect waves-light green" name="action" type="submit">Entrar</button>
 					</div>
